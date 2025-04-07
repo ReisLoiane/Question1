@@ -81,11 +81,12 @@ GROUP BY
 ORDER BY 
     st.Enrolled_at DESC;
 
+SELECT * FROM Q1A
+
 --b.Utilizando a resposta do item a, escreva uma consulta para obter, por escola e 
 --por dia, a soma acumulada, a média móvel 7 dias e a média móvel 30 dias da quantidade de alunos.
 
-
-CREATE VIEW Q1B AS
+CREATE VIEW Q1B
 WITH daily_enrollments AS (
     SELECT 
         s.School_Name,

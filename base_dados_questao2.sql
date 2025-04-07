@@ -1,4 +1,4 @@
-CREATE USER sql_user WITH PASSWORD '1803'
+CREATE USER sql_user WITH PASSWORD 'xxxx'
 
 CREATE TABLE departamento(
     cod_dep int,
